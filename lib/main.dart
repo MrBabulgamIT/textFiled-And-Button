@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:textfieldbutton/desgin.dart';
 import 'package:textfieldbutton/homedemo.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeDemo(),
+      home: DesginDemo(),
     );
   }
 }
